@@ -1,0 +1,29 @@
+{
+  "name": "cl-mock",
+  "version": "0.1.0",
+  "description": "",
+  "main": "bin/cli",
+  "scripts": {
+    "start": "node bin/cli"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "mock",
+    "koa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CesarLai/cl-mock.git"
+  },
+  "author": "Cesar Lai",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
