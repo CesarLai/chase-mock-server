@@ -1,10 +1,10 @@
 {
   "name": "cl-mock",
   "version": "0.1.0",
-  "description": "",
+  "description": "A mock service with koa.",
   "main": "bin/cli",
   "scripts": {
-    "start": "node bin/cli"
+    "start": "ts-node bin/cli"
   },
   "keywords": [
     "node",
@@ -16,13 +16,19 @@
     "type": "git",
     "url": "git@github.com:CesarLai/cl-mock.git"
   },
+  "bin": {
+    "cl-mock": "bin/cli"
+  },
   "author": "Cesar Lai",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^4.1.2",
     "yargs": "^17.2.1"
   },
   "devDependencies": {
+    "@types/chalk": "^2.2.0",
     "@types/node": "^16.11.9",
+    "@types/yargs": "^17.0.7",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
   }
