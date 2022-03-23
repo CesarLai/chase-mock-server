@@ -1,3 +1,3 @@
-# cl-mock
+# chase-mock-server
 
-A mock service with koa.
+A mock server with koa.
